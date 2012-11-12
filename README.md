@@ -1,9 +1,7 @@
-# Vim CoffeeScript Plugin
+# Coffeescript.vim
 This project adds [CoffeeScript](http://coffeescript.org/) support to the vim 
 editor. It handles syntax, indenting and more. Also included is support for CoffeeScript in
 Haml and HTML.
-
-## Install from a Zipball
 
 
 ## Install with Vundle
@@ -15,6 +13,7 @@ Bundle 'GEverding/vim-coffee-sciprt'
 ```
 
 2. Install
+
 ```
 vim +BundleInstall! +BundleClean
 ```
@@ -23,4 +22,4 @@ vim +BundleInstall! +BundleClean
 
 This is based on [kchmck's](https://github.com/kchmck/vim-coffee-script) coffeescript
 plugin.  It is a very good plugin, however, I didn't like the compiler part of the plugin
-cause I use Make & [Redo](https://github.com/apenwarr/redo) to build my projects.
+cause I use make & [Redo](https://github.com/apenwarr/redo) to build my projects.
